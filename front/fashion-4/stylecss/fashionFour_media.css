@@ -1,51 +1,124 @@
-@media screen and (min-width:320px) and (max-width:570px){
-    .navbar-brand{
+@media screen and (min-width:300px) and (max-width:700px) {
+
+    /* and (max-width:570px){ */
+    .navbar-brand {
         order: 2;
-    } 
+    }
+
+
+    .img-1_imgbox img {
+        display: none;
+    }
+
+    .intro_slide {
+        height: 474px !important;
+    }
+
     .img-1_imgbox img {
         z-index: 1;
         right: 12px !important;
 
     }
+
+    .banner-overlay {
+        height: unset !important;
+
+    }
+
     .intro-text-content {
-       
+
         left: 45px !important;
         top: 7rem !important;
     }
+
     .intro_text h2 {
         font-size: 6rem !important;
     }
+
     .intro_text h1 {
         font-size: 4.5rem !important;
     }
-    .banner-overlay{
-       
-    margin-bottom: 26px;
+
+    .banner-overlay {
+
+        margin-bottom: 26px;
     }
+
     .owl-stage-outer {
         margin-bottom: 2rem;
         text-align: center;
     }
+
     .product-media-2 {
-         height: unset !important;
+        height: unset !important;
         padding: 0 0 1rem 0;
 
     }
-    .banner-overlay-backimg{
+
+    .banner-overlay-backimg {
         width: unset !important;
         margin-bottom: 2rem;
     }
-    .banner-overlay{
+
+    .banner-overlay {
         margin-bottom: 2rem;
         /* margin: auto !important;
         text-align: center !important; */
 
     }
+
     .icon-box {
         margin: 1rem 0;
     }
+
     .footer {
         text-align: center;
     }
-    
+
+    /* .........................  */
+    .trend {
+        background-position: left top !important;
+    }
+
+    .icon-box {
+        width: unset !important;
+    }
+
+    .widget-two {
+        padding-top: 3rem;
+    }
+
+    .widget-about {
+        padding-bottom: 1rem;
+
+    }
+    .social-label{
+        padding-top: 1rem;
+    }
+
+}
+/* ............................  */
+
+@media screen and (min-width:700px) and (max-width:1000px){
+    .img-1_imgbox img {
+       
+        display: none;
+    }
+   
+
+.intro_text h1 {
+    font-size: 5.5rem !important;
+}
+.intro_text h2{
+    font-size: 8rem !important;
+}
+.banner-overlay-backimg {
+    width: unset !important;
+    margin: 0 1rem;
+}
+.icon-box {
+     border: none !important;
+}
+   
+
 }
