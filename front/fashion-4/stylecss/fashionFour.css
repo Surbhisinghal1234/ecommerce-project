@@ -12,7 +12,8 @@
     .navbar-brand {
          padding-top:0;
     }
-    .first-navbar .btn {
+    
+     .btn {
         --bs-btn-padding-x: 0px;
         --bs-btn-padding-y: 8px;
     }
@@ -66,6 +67,7 @@ ul {
     z-index: 3;
     width: 100%;
     position: fixed;
+    
 }
 
 .header .nav-link {
@@ -147,7 +149,7 @@ ul {
 
 /* intro slide */
 /* .................................. */
-.intro_slide {
+/* .intro_slide {
     height: 700px;
     width: 100%;
     background-image: url("../image/slide-1.jpg");
@@ -157,16 +159,32 @@ ul {
     background-size: cover;
     position: relative;
     top: 60px;
-}
+} */
 
-.intro-slider {
+/* .intro_text { */
+    /* height: 700px; */
+    /* width: 100%; */
+    /* background-image: url("../image/slide-1.jpg"); */
+    /* display: flex;
+    align-items: center; */
+    /* background-position: center;
+    background-size: cover; */
+    /* position: relative; */
+    /* top: 60px; */
+    
+   
+   
+/* } */
+/* .intro-slider { */
     /* margin: 50px 0; */
     /* margin-top: 6rem; */
-}
+/* } */
 
 .intro_slide.col-lg-6 {
+
     position: relative;
 }
+
 .intro-text-content {
     position: absolute;
     left: 300px;
@@ -346,9 +364,9 @@ ul {
     width: 700px;
     /* text-align: center; */
 }
-.drop-add .row{
+/* .drop-add .row{ */
     /* width: 70%; */
-}
+/* } */
 .drop-add2{
     width: 480px;
 }
@@ -466,11 +484,11 @@ ul {
     background-image: url("../image/banners/banner-3-rem.png");
 }
 
-.owl-stage-outer {
+/* .owl-stage-outer { */
     /* margin: 5px 0 0 0; */
-}
+/* } */
 
-.owl-stage-outer img {}
+/* .owl-stage-outer img {} */
 
 .owl-stage-line {
     width: 97%;
