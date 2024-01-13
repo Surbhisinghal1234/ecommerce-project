@@ -34,6 +34,14 @@
     border-bottom: 1px solid black;
 }
 
+
+/******** HOME DROPDOWN KO KHISHKANE KE LIYE ******/
+
+.first-navbar .navbar-nav > li:first-of-type .dropdown-menu{
+    left: -10rem;
+}
+
+
 .fa-arrow-right:before {
     content: "\f061";
     font-size: 12px;
@@ -148,11 +156,12 @@ ul {
     background-position: center;
     background-size: cover;
     position: relative;
-
+    top: 60px;
 }
 
 .intro-slider {
-    margin: 50px 0;
+    /* margin: 50px 0; */
+    /* margin-top: 6rem; */
 }
 
 .intro_slide.col-lg-6 {
@@ -244,7 +253,7 @@ ul {
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     /* position: absolute;
-    left: -245px;
+    left: -174px;
     top: 47px; */
     background-color: white;
 
@@ -523,7 +532,7 @@ ul {
 
 .product-media-2:hover {
     box-shadow: 1px 1px 12px #0000002b;
-    transition: all 2s ease;
+    transition: all 0.75s ease;
 }
 
 .product-action-vertical {
