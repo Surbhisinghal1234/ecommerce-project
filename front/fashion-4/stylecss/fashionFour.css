@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 /* ...................... */
@@ -132,7 +133,7 @@ ul {
 .shop-img-hover-main:hover .illusion{
 
     background-color: rgba(0, 0, 0, 0.21);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 
     /* opacity: 0.2; */
     /* z-index: -1; */
@@ -292,7 +293,43 @@ ul {
   overflow-x: hidden;
   overflow-y: scroll;
   box-shadow: 2px 2px 5px #00000078;
+ 
+   
 }
+
+/* width */
+.header ::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  .header ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  /* Handle */
+  .header ::-webkit-scrollbar-thumb {
+    background: lightgray;
+  }
+  
+  /* Handle on hover */
+  /* ::-webkit-scrollbar-thumb:hover {
+    background: white;
+  } */
+
+   /* ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+   } */
+   
+   /* ::-webkit-scrollbar-thumb {
+    background: #888; 
+   } */
+   
+   /* ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+   }  */
+
+   
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   /* position: absolute;
