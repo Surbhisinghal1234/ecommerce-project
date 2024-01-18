@@ -137,21 +137,21 @@ ul {
 
 }  
 
-/* .shop-img-hover-main:after {
+/* .shop-img-hover-main:before {
   position: absolute;
   color: white;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  display: block;
-  content: "";
+  display: flex;
+  content: "last chance sale";
 }
 .shop-img-hover-main {
   position: relative;
-  display: block;
+  display: flex;
 }
-.shop-img-hover-main:hover:after {
+.shop-img-hover-main:hover:before {
   background-color: rgba(0, 0, 0, 0.21);
   transition: all 0.5s ease-in-out;
 } */
@@ -202,14 +202,14 @@ ul {
   height: 700px;
   position: relative;
   top: 60px;
-  background-image: url(./image/slide-1.jpg);
+  background-image: url("../image/slide-1.jpg");
   background-position: center;
   background-size: cover;
 }
-.intro_slide .container-fluid,
+/* .intro_slide .container-fluid,
 .intro_slide .intro_text {
   height: 100%;
-}
+} */
 
 /* .intro_text { */
 /* height: 700px; */
@@ -270,12 +270,13 @@ ul {
   font-weight: 450;
 }
 
-.intro-button a {
+/* .intro-button a {
   border: 2px solid black;
   padding: 10px 25px;
   font-size: 13px;
   border-radius: 2px;
-}
+
+} */
 
 .intro-button a:hover {
   background-color: black;
@@ -286,15 +287,14 @@ ul {
 /* .intro-button{
     position: relative;
 } */
-.icon-long-arrow-right {
+/* .icon-long-arrow-right {
   padding-left: 5px;
   font-size: 20px;
   font-weight: 300;
   display: inline-block;
   margin-top: 10px;
   padding-top: 10px;
-  /* position: absolute; */
-}
+} */
 
 /* mega menu display none */
 /* .mega_menu{
@@ -1076,35 +1076,35 @@ trending content */
 /* footer */
 /* ................................ */
 
-.footer {
+/* .footer {
   background-color: #000000db;
-}
+} */
 
-.widget-about p {
+/* .widget-about p {
   color: #ffffff85;
   padding: 20px 0 25px 0;
-}
+} */
 
-.widget-two p {
+/* .widget-two p {
   padding: 20px;
-}
+} */
 
-.widget-two h5 {
+/* .widget-two h5 {
   padding-left: 18px;
-}
+} */
 
-.width-about-info p {
+/* .width-about-info p {
   color: white !important;
-}
+} */
 
-.width-about-info a {
+/* .width-about-info a {
   color: #eea287;
   font-size: 20px;
-}
+} */
 
-.widget {
+/* .widget {
   color: white;
-}
+} */
 
 .widget p {
   color: #ffffff85;
