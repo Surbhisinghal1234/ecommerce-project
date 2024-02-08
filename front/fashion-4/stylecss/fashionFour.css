@@ -110,7 +110,7 @@ ul {
 }
 /* ...........................  */
 
- .shop-img-hover-main {
+.shop-img-hover-main {
   position: relative;
   width: 229px;
   height: 300px;
@@ -121,21 +121,19 @@ ul {
   width: 100%;
   display: flex;
 }
- .illusion{
-    position: absolute;
-    color: white;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+.illusion {
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.shop-img-hover-main:hover .illusion{
-
-    background-color: rgba(0, 0, 0, 0.21);
-    transition: all 0.5s ease-in-out;
-
-}  
+.shop-img-hover-main:hover .illusion {
+  background-color: rgba(0, 0, 0, 0.21);
+  transition: all 0.5s ease-in-out;
+}
 
 /* .shop-img-hover-main:before {
   position: absolute;
@@ -196,7 +194,6 @@ ul {
 
 /* intro slide */
 /* .................................. */
-
 
 .intro_slide {
   height: 700px;
@@ -501,23 +498,23 @@ ul {
 
 .banner-content h4 a {
   color: #00000070;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 .banner-content h3 a {
   font-size: 23px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .banner-content h3 a span {
-  font-weight: 450;
+  /* font-weight: 450; */
   font-size: 22px;
   color: #000000b8;
 }
 
 .banner-btn a {
   border: 1px solid #eea287;
-  padding: 8px 22px;
+  /* padding: 8px 22px; */
   color: #eea287;
   font-size: 15px;
   border-radius: 2px;
@@ -794,13 +791,27 @@ ul {
 /* 
 trending content */
 
-.banner-content {
+/* .banner-content {
   color: white;
-}
+} */
 
-.banner-content p {
+/* .banner-content p {
   font-size: 15px;
   padding-bottom: 1.5rem;
+} */
+
+/* .banner-content .trend-btn {
+   color: white;
+   border: 1px solid white; 
+  padding: 10px 22px;
+  font-size: 16px;
+  border-radius: 2px;
+} */
+
+.trend-btn:hover {
+  background-color: white;
+  color: black !important;
+  transition: all 0.4s ease;
 }
 
 .banner-btn {
@@ -817,21 +828,10 @@ trending content */
   font-weight: bolder;
 }
 
-.banner-content .trand-btn {
-  color: white;
-  border: 1px solid white;
-  padding: 10px 22px;
-  font-size: 16px;
-  border-radius: 2px;
-}
+/* ..new arrival  */
+/* ...................................  */
 
-.trand-btn:hover {
-  background-color: white;
-  color: black;
-  transition: all 0.4s ease;
-}
-
-.banner-overlay-backimg {
+.new-arrivals .banner-overlay-backimg {
   background-image: url("../image/banners/banner-5-rem.png");
   height: 280px;
   width: 600px;
@@ -841,43 +841,38 @@ trending content */
   padding: 4rem 2rem;
 }
 
-.banner-6 {
+.new-arrivals .banner-6 {
   background-image: url("../image/banners/banner-6-rem.png");
 }
+.new-arrivals .banner-text h4 {
+  /* padding-bottom: 1.5rem; */
+}
 
-.banner-overlay-backimg:hover {
-  background-color: #80808040;
+.new-arrivals .banner-text h4 a {
+  /* font-weight: bold; */
+}
+
+.new-arrivals .banner-text p a {
+  color: #000000b5;
+}
+
+.new-arrivals .banner-text p a:hover {
+  color: #eea287;
+}
+
+.new-arrivals .banner-text h4 a:hover {
+  color: #eea287;
 }
 
 .new-arrival-btn {
   border: 2px solid #eea287;
-  padding: 8px 20px;
+  /* padding: 8px 24px; */
   color: #eea287;
   font-size: 14px;
 }
 
 .new-arrival-btn:hover {
   background-color: #eea287;
-}
-
-.banner-text h4 {
-  padding-bottom: 1.5rem;
-}
-
-.banner-text h4 a {
-  font-weight: bold;
-}
-
-.banner-text p a {
-  color: #000000b5;
-}
-
-.banner-text p a:hover {
-  color: #eea287;
-}
-
-.banner-text h4 a:hover {
-  color: #eea287;
 }
 
 .new-arrival-btn:hover {
@@ -928,43 +923,42 @@ trending content */
 .ul-list .nav-pills .nav-link:hover {
   color: #eea287 !important;
 }
-
+/* .................................  */
 /* icons */
-.icon-box {
+/* ............................  */
+
+.icon-parent .icon-box {
   border: 1px solid #00000026;
-  text-align: center;
-  padding: 20px 30px 10px 40px;
-  border-radius: 5px;
-}
-
-/* fa-rocket */
-.icon-box:hover .fa-solid {
-  color: white;
-}
-
-.icon-box:hover .fa-regular {
-  color: white;
-}
-
-.icon-box {
+  /* text-align: center; */
+  /* padding: 20px 30px 10px 40px; */
+  /* border-radius: 5px; */
   height: 160px;
   width: 300px;
 }
 
+/* fa-rocket */
+.icon-parent .icon-box:hover .fa-solid {
+  color: white;
+}
+
+.icon-parent .icon-box:hover .fa-regular {
+  color: white;
+}
+
 .fa-life-ring {
-  font-size: 23px;
+  /* font-size: 23px; */
 }
 
-.icon-box span i {
+.icon-parent .icon-box span i {
   color: #eea287;
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
 }
 
-.icon-box h5 {
+.icon-parent .icon-box h5 {
   font-size: 17px;
 }
 
-.icon-box:hover {
+.icon-parent .icon-box:hover {
   background-color: #eea287;
   color: white;
   transition: all 0.5s ease;
@@ -976,14 +970,14 @@ trending content */
 
 /* ..............................  */
 
-.title {
+/* .title {
   text-align: center;
   margin-top: 3rem;
-}
+} */
 
-.owl-stage-outer .row {
+/* .owl-stage-outer .row {
   text-align: center;
-}
+} */
 
 .owl-stage {
   background-image: url("../image/instagram/1.jpg");
@@ -994,9 +988,9 @@ trending content */
   background-size: cover;
 }
 
-.title h5 {
+/* .title h5 {
   font-weight: bold;
-}
+} */
 
 .insta-2 {
   background-image: url("../image/instagram/2.jpg");
@@ -1041,20 +1035,18 @@ trending content */
   /* z-index: 1; */
 }
 
-.owl-stage {
-  text-align: center;
-}
-
-.owl-stage {
+/* .owl-stage {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  text-align: center;
 
-.owl-stage a {
+} */
+
+/* .owl-stage a {
   color: white;
   margin: 10px;
-}
+} */
 
 .owl-stage a span {
   padding: 0 8px;
@@ -1069,7 +1061,7 @@ trending content */
 }
 
 .owl-stage a:hover {
-  color: #eea287;
+  color: #eea287 !important;
 }
 
 /* ......................... */
@@ -1106,35 +1098,34 @@ trending content */
   color: white;
 } */
 
-.widget p {
+/* .widget p {
   color: #ffffff85;
   font-weight: 300;
-}
+} */
 
-.widget h5 {
+/* .widget h5 {
   font-size: 18px;
-}
+} */
 
-.width-about-info p {
-  border-bottom: 0;
+/* .width-about-info p {
   line-height: 0;
-}
+} */
 
-.footer-line hr {
+/* .footer-line hr {
   color: white;
   width: 97%;
   margin: 0 !important;
-}
+} */
 
-.footer-copyright {
+/* .footer-copyright {
   color: #ffffff6e;
   font-weight: 300;
-}
+} */
 
-.footer-copyright a {
+/* .footer-copyright a {
   color: #ffffff6e;
   font-weight: 300;
-}
+} */
 
 .social-label span {
   color: #ffffff6e;
@@ -1180,9 +1171,9 @@ trending content */
   color: white;
 }
 
-.vertical-line-space {
+/* .vertical-line-space {
   margin: 0 10px;
-}
+} */
 
 /* ...................  */
 
