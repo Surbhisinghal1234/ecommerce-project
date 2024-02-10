@@ -347,7 +347,12 @@ ul {
     top: 47px; */
   background-color: white;
 }
-
+.demo-bg-hidden {
+  display: none;
+}
+.header-icon-phn{
+  display: none;
+}
 /* 
 .demo_bg {
      max-height: 150px;
@@ -614,7 +619,7 @@ ul {
 }
 
 .product-action-vertical a {
-  color: white;
+  /* color: white; */
   font-size: 14px;
   visibility: hidden;
 }
@@ -635,10 +640,10 @@ ul {
   display: inline-block;
 }
 
-.product-body {
+/* .product-body {
   text-align: center;
   margin-top: 1rem;
-}
+} */
 
 .product_title h5 a:hover {
   color: #eea287;

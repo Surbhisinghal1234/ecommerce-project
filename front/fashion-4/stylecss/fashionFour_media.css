@@ -1,124 +1,235 @@
-@media screen and (min-width:300px) and (max-width:700px) {
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  /* and (max-width:570px){ */
+  .navbar-brand {
+    order: 2;
+  }
 
-    /* and (max-width:570px){ */
-    .navbar-brand {
-        order: 2;
-    }
+  /* .img-1_imgbox img {
+   
+  } */
+  .navbar-toggler {
+    border: none !important;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .header {
+    width: 75%;
+    margin: unset !important;
+    background-color: #000000c7;
+    padding: 10px 0 10px 20px !important;
+    border-radius: 10px;
+  }
+  .navbar-nav {
+  }
 
+  .nav-link {
+    color: rgba(255, 255, 255, 0.763) !important;
+  }
+  .dropdown-item {
+    color: rgba(255, 255, 255, 0.676);
+    font-size: 13px;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    background-color: #0000009e !important;
+    width: 80%;
+  }
+  .btn.border-0.fw-medium {
+    color: #ffffffc8;
+  }
+  .header_search {
+    display: none;
+  }
+  /* iamge ko hide karvane ke liye */
+  .demo_bg .fur {
+    display: none;
+  }
+  .demo_bg span {
+    color: #ffffffc8;
+    font-size: 13px;
+  }
+  .demo_bg {
+    /* line-height: 40px; */
+  }
+  .row.justify-content-evenly.g-0.mt-3 h6 {
+    color: #ffffffc8;
+  }
+  .first-navbar .navbar-nav > li:first-of-type .dropdown-menu {
+    left: -10rem;
+    padding: 10px 20px 20px 20px;
+  }
+  .mega-menu-action a {
+    font-size: 13px !important;
+    padding: 5px 11px !important;
+  }
+  .mega-menu-action {
+    text-align: left !important;
+  }
+  .mega_menu h6 {
+    padding-left: 0 !important;
+  }
+  .first-navbar .navbar-nav > li:first-of-type .dropdown-menu {
+    width: 243px;
+  }
+  .demo-bg-hidden {
+    display: block !important;
+  }
+  /* ................. */
+  .header-icon-phn a i {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.662);
+    margin: 10px 10px 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.767);
+    border-radius: 50%;
+    padding: 7px;
+  }
+  .header-icon-phn {
+    display: block !important;
+  }
+  .navbar-brand {
+    position: fixed;
+    right: 5px;
+    top: 10px;
+  }
 
-    .img-1_imgbox img {
-        display: none;
-    }
+  /* Track */
+  .header ::-webkit-scrollbar-track {
+    border-radius: 0 10px 10px 0;
+  }
 
-    .intro_slide {
-        height: 474px !important;
-    }
+  /* Handle */
+  .header ::-webkit-scrollbar-thumb {
+    border-radius: 0 10px 10px 0;
+  }
 
-    .img-1_imgbox img {
-        z-index: 1;
-        right: 12px !important;
+  /* //......................... */
 
-    }
+  .shop-img-hover-main {
+    display: none !important;
+  }
+  .navbar-nav .col-lg-4.ps-1.pt-3 {
+    padding-left: 12px !important;
+    font-size: 16px !important;
+  }
+  .navbar-nav .col-lg-4.p-0.pt-3 {
+    padding-bottom: 20px !important ;
+    padding-left: 12px !important;
+    font-size: 16px !important;
+  }
+  .navbar-nav .col-lg-4.p-0 {
+    height: unset !important;
+  }
 
-    .banner-overlay {
-        height: unset !important;
+  .col-lg-6.p-0 {
+    height: unset !important;
+  }
+  .navbar-nav .col-lg-6 {
+    padding-bottom: 6px !important;
+    font-size: 16px;
+    /* font-weight: 500; */
+  }
+  .intro_slide {
+    height: 474px !important;
+  }
 
-    }
+  .img-1_imgbox img {
+    z-index: 1;
+    right: 12px !important;
+    display: none;
+  }
 
-    .intro-text-content {
+  .banner-overlay {
+    height: unset !important;
+  }
 
-        left: 45px !important;
-        top: 7rem !important;
-    }
+  .intro-text-content {
+    left: 45px !important;
+    top: 7rem !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-    .intro_text h2 {
-        font-size: 6rem !important;
-    }
+  .intro_text h2 {
+    font-size: 5rem !important;
+  }
 
-    .intro_text h1 {
-        font-size: 4.5rem !important;
-    }
+  .intro_text h1 {
+    font-size: 3.5rem !important;
+  }
 
-    .banner-overlay {
+  .owl-stage-outer {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
 
-        margin-bottom: 26px;
-    }
+  .product-media-2 {
+    height: unset !important;
+    padding: 0 0 1rem 0;
+  }
 
-    .owl-stage-outer {
-        margin-bottom: 2rem;
-        text-align: center;
-    }
+  .banner-overlay-backimg {
+    width: unset !important;
+    margin-bottom: 2rem;
+  }
 
-    .product-media-2 {
-        height: unset !important;
-        padding: 0 0 1rem 0;
+  .banner-overlay {
+    margin-bottom: 2rem;
+    padding: 0;
+    text-align: center;
+  }
+  .banner-btn a {
+    margin-bottom: 2.75rem;
+    display: inline-block;
+  }
 
-    }
+  .icon-box {
+    margin: 1rem 0;
+  }
 
-    .banner-overlay-backimg {
-        width: unset !important;
-        margin-bottom: 2rem;
-    }
+  .footer {
+    text-align: center;
+  }
 
-    .banner-overlay {
-        margin-bottom: 2rem;
-        /* margin: auto !important;
-        text-align: center !important; */
+  /* .........................  */
+  .trend {
+    background-position: left top !important;
+  }
 
-    }
+  .icon-box {
+    width: unset !important;
+  }
 
-    .icon-box {
-        margin: 1rem 0;
-    }
+  .widget-two {
+    padding-top: 3rem;
+  }
 
-    .footer {
-        text-align: center;
-    }
-
-    /* .........................  */
-    .trend {
-        background-position: left top !important;
-    }
-
-    .icon-box {
-        width: unset !important;
-    }
-
-    .widget-two {
-        padding-top: 3rem;
-    }
-
-    .widget-about {
-        padding-bottom: 1rem;
-
-    }
-    .social-label{
-        padding-top: 1rem;
-    }
-
+  .widget-about {
+    padding-bottom: 1rem;
+  }
+  .social-label {
+    padding-top: 1rem;
+  }
 }
 /* ............................  */
 
-@media screen and (min-width:700px) and (max-width:1000px){
-    .img-1_imgbox img {
-       
-        display: none;
-    }
-   
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .img-1_imgbox img {
+    display: none;
+  }
 
-.intro_text h1 {
+  .intro_text h1 {
     font-size: 5.5rem !important;
-}
-.intro_text h2{
+  }
+  .intro_text h2 {
     font-size: 8rem !important;
-}
-.banner-overlay-backimg {
+  }
+  .banner-overlay-backimg {
     width: unset !important;
     margin: 0 1rem;
-}
-.icon-box {
-     border: none !important;
-}
-   
-
+  }
+  .icon-box {
+    border: none !important;
+  }
 }
